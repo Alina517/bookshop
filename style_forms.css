@@ -1,0 +1,56 @@
+body {
+	background-color: #f7f7f7;
+}
+
+.log {
+	text-align: center;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #373A49;
+	border-color: #373A49;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #9391A4;
+	border-color: #9391A4;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+	color: #fff;
+	background-color: #9391A4;
+	border-color: #9391A4;
+	box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.0);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+	color: #fff;
+	background-color: #9391A4;
+	border-color: #9391A4;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-success.dropdown-toggle {
+	color: #fff;
+	background-color: #9391A4;
+	border-color: #9391A4;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0.2rem rgba(147, 145, 164, 0.5);
+}
+
+.error_message{
+	color: #ff0000;
+	font-size: 10pt;
+}
