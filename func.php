@@ -1,9 +1,11 @@
 <?php
+	//Соединение с БД
 	function getConnection()
 	{
 		return mysqli_connect("localhost", "root", "", "books_shop");
 	}
 	
+	//Якоря (ЛР3)
 	function tableOfContents ($text)
 	{
 		//Сбор заголовков
@@ -40,5 +42,11 @@
 		?> 
 		</div>
 	<?php
+	}
+	
+	function queryCatalog($select_genre)
+	{
+		$link = getConnection();
+		return mysqli_query($link,"SELECT book_id, book_name, book_author, book_description, book_price, book_image FROM books WHERE book_genre = '$select_genre'");
 	}
 ?>

@@ -10,6 +10,14 @@
 	if (isset($_SESSION['id']))
 	{
 		$isLogin = true;
+		if(2 == $_SESSION['status'])
+		{
+			$isAdmin = true;
+		}
+		else
+		{
+			$isAdmin = false;
+		}
 	}
 	else
 	{

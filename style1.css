@@ -298,7 +298,60 @@ body {
 	color: #373A49;
 }
 
+/* Каталог */
+	/*Навигационная панель*/
 
+.list-group-item{
+	color: #373A49;
+}
+
+.list-group-item:hover{
+	color: #000;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #9391A4;
+  border-color: #9391A4;
+}
+
+	/* Список */
+.price{
+	text-align: right;
+}
+
+.btn-outline-dark{
+	border-color: #373A49;
+	color: #373A49;
+}
+
+.btn-outline-dark:hover{
+	border-color: #373A49;
+	color: #fff;
+	background-color: #373A49;
+}
+
+.card-img{
+	height: 250px;	
+	object-fit: contain;
+	width: auto;
+	text-align: center;
+}
+
+.card-body{
+	position:relative;
+}
+
+.shop {
+	position:absolute;
+	margin-bottom:0;
+}
+
+.error_message{
+	color: #ff0000;
+	font-size: 10pt;
+}
 
 /* Футер */
 
